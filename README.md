@@ -1,8 +1,8 @@
 # 42_scraping
 ### Step1
-First you need to download chromedrive to your computer
-
-I used brew.   
+First you need to install selenium and download chromedrive to your computer.  
+`$ pip install selenium==3.141.0`  
+I used brew to download chromedrive.   
 `$ brew install chromedriver`
 
 If you don't have brew, check this out!->https://chromedriver.chromium.org/downloads
