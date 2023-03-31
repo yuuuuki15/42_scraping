@@ -22,7 +22,7 @@ def load():
 
 try:
     driver = webdriver.Chrome('/usr/local/bin/chromedriver')	
-    driver.get('https://admissions.42.fr/users/rx86340616_at_gmail-com/introductions_users')
+    driver.get('https://admissions.42.fr')
     email_input = driver.find_element_by_id('user_email')
     password_input = driver.find_element_by_id('user_password')
     email_input.send_keys(USERNAME)
